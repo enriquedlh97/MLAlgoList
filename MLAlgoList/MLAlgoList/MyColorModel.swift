@@ -43,12 +43,12 @@ class MyColorModel: ObservableObject {
         ]
         
         naiveBayes = [
-            MyColor(id: 1, color: Color("JacksonsPurple"), colorTexto: Color("LightText"), nombre: "Jacksons Purple", modo: "Light"),
-            MyColor(id: 2, color: Color("LuckyPoint"), colorTexto: Color("LightText"), nombre: "Lucky Point", modo: "Dark"),
-            MyColor(id: 3, color: Color("C64Purple"), colorTexto: Color("LightText"), nombre: "C64 Purple", modo: "Light"),
-            MyColor(id: 4, color: Color("Liberty"), colorTexto: Color("LightText"), nombre: "Liberty", modo: "Dark"),
-            MyColor(id: 5, color: Color("SwanWhite"), colorTexto: Color("DarkText"), nombre: "Swan White", modo: "Light"),
-            MyColor(id: 6, color: Color("HotStone"), colorTexto: Color("DarkText"), nombre: "Hot Stone", modo: "Dark")
+            MyColor(id: 1, color: Color("JacksonsPurple"), colorTexto: Color("LightText"), nombre: "Gaussian Naive Bayes", modo: "Light"),
+            MyColor(id: 2, color: Color("LuckyPoint"), colorTexto: Color("LightText"), nombre: "Multinomial Naive Bayes", modo: "Dark"),
+            MyColor(id: 3, color: Color("C64Purple"), colorTexto: Color("LightText"), nombre: "Complement Naive Bayes", modo: "Light"),
+            MyColor(id: 4, color: Color("Liberty"), colorTexto: Color("LightText"), nombre: "Bernoulli Naive Bayes", modo: "Dark"),
+            MyColor(id: 5, color: Color("SwanWhite"), colorTexto: Color("DarkText"), nombre: "Categorical Naive Bayes", modo: "Light"),
+            MyColor(id: 6, color: Color("HotStone"), colorTexto: Color("DarkText"), nombre: "Out-of-core Naive Bayes", modo: "Dark")
         ]
         
         clustering = [
