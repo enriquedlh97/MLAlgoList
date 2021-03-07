@@ -32,9 +32,9 @@ struct ListView: View {
                 }
                 List {
                     Section(header:
-                                Text("American Palette")
+                                Text("Linear Models")
                                 .foregroundColor(Color("DarkText")), content: {
-                                    ForEach(lists.americanPalette) { item in
+                                    ForEach(lists.linearModels) { item in
                                         if showDark && item.modo == "Dark" || !showDark {
                                             NavigationLink(
                                                 destination: DetailView(color: item),
@@ -53,9 +53,9 @@ struct ListView: View {
                                     }
                                 })
                     Section(header:
-                                Text("Spanish Palette")
+                                Text("Naive Bayes")
                                 .foregroundColor(Color("DarkText")), content: {
-                                    ForEach(lists.spanishPalette) { item in
+                                    ForEach(lists.naiveBayes) { item in
                                         if showDark && item.modo == "Dark" || !showDark {
                                             NavigationLink(
                                                 destination: DetailView(color: item),
@@ -73,9 +73,9 @@ struct ListView: View {
                                     }
                                 })
                     Section(header:
-                                Text("FlatUI Palette")
+                                Text("Clustering")
                                 .foregroundColor(Color("DarkText")), content: {
-                                    ForEach(lists.flatUIPalette) { item in
+                                    ForEach(lists.clustering) { item in
                                         if showDark && item.modo == "Dark" || !showDark {
                                             NavigationLink(
                                                 destination: DetailView(color: item),
