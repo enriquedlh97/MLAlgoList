@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct ColorListApp: App {
+struct MLAlgoListApp: App {
     var body: some Scene {
         WindowGroup {
             ListView()
