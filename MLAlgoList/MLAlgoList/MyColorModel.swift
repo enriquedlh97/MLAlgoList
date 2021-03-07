@@ -23,23 +23,23 @@ class MyColorModel: ObservableObject {
     func LoadInfo() {
         
         linearModels = [
-            MyColor(id: 1, color: Color("LightGreenishBlue"), colorTexto: Color("DarkText"), nombre: "Light Greenish Blue", modo: "Light"),
-            MyColor(id: 2, color: Color("MintLeaf"), colorTexto: Color("LightText"), nombre: "Mint Leaf", modo: "Dark"),
-            MyColor(id: 3, color: Color("FadedPoster"), colorTexto: Color("DarkText"), nombre: "Faded Poster", modo: "Light"),
-            MyColor(id: 4, color: Color("RobbinsEggBlue"), colorTexto: Color("DarkText"), nombre: "Robbin's Egg Blue", modo: "Dark"),
-            MyColor(id: 5, color: Color("GreenDarnerTail"), colorTexto: Color("DarkText"), nombre: "Green Darner Tail", modo: "Light"),
-            MyColor(id: 6, color: Color("ElectronBlue"), colorTexto: Color("LightText"), nombre: "Electron Blue", modo: "Dark"),
-            MyColor(id: 7, color: Color("ShyMoment"), colorTexto: Color("DarkText"), nombre: "Shy Moment", modo: "Light"),
-            MyColor(id: 8, color: Color("ExodusFruit"), colorTexto: Color("LightText"), nombre: "Exodus Fruit", modo: "Dark"),
-            MyColor(id: 9, color: Color("CityLights"), colorTexto: Color("DarkText"), nombre: "City Lights", modo: "Light"),
-            MyColor(id: 10, color: Color("SoothingBreeze"), colorTexto: Color("DarkText"), nombre: "Soothing Breeze", modo: "Dark"),
-            MyColor(id: 11, color: Color("SourLemon"), colorTexto: Color("DarkText"), nombre: "Sour Lemon", modo: "Light"),
-            MyColor(id: 12, color: Color("BrightYarrow"), colorTexto: Color("DarkText"), nombre: "Bright Yarrow", modo: "Dark"),
-            MyColor(id: 13, color: Color("FirstDate"), colorTexto: Color("DarkText"), nombre: "First Date", modo: "Light"),
-            MyColor(id: 14, color: Color("OrangeVille"), colorTexto: Color("LightText"), nombre: "Orange Ville", modo: "Dark"),
-            MyColor(id: 15, color: Color("PinkGlamour"), colorTexto: Color("DarkText"), nombre: "Pink Glamour", modo: "Light"),
-            MyColor(id: 16, color: Color("ChiGong"), colorTexto: Color("LightText"), nombre: "Chi-Gong", modo: "Dark"),
-            MyColor(id: 17, color: Color("Pico8Pink"), colorTexto: Color("DarkText"), nombre: "Pico-8 Pink", modo: "Light")
+            MyColor(id: 1, color: Color("LightGreenishBlue"), colorTexto: Color("DarkText"), nombre: "Ordinary Least Squares", modo: "Light"),
+            MyColor(id: 2, color: Color("MintLeaf"), colorTexto: Color("LightText"), nombre: "Ridge Regression", modo: "Dark"),
+            MyColor(id: 3, color: Color("FadedPoster"), colorTexto: Color("DarkText"), nombre: "Lasso", modo: "Light"),
+            MyColor(id: 4, color: Color("RobbinsEggBlue"), colorTexto: Color("DarkText"), nombre: "Multi-task Lasso", modo: "Dark"),
+            MyColor(id: 5, color: Color("GreenDarnerTail"), colorTexto: Color("DarkText"), nombre: "Elastic-Net", modo: "Light"),
+            MyColor(id: 6, color: Color("ElectronBlue"), colorTexto: Color("LightText"), nombre: "Multi-task Elastic-Net", modo: "Dark"),
+            MyColor(id: 7, color: Color("ShyMoment"), colorTexto: Color("DarkText"), nombre: "Least Angle Regression", modo: "Light"),
+            MyColor(id: 8, color: Color("ExodusFruit"), colorTexto: Color("LightText"), nombre: "LARS Lasso", modo: "Dark"),
+            MyColor(id: 9, color: Color("CityLights"), colorTexto: Color("DarkText"), nombre: "Orthogonal Matching Pursuit (OMP)", modo: "Light"),
+            MyColor(id: 10, color: Color("SoothingBreeze"), colorTexto: Color("DarkText"), nombre: "Bayesian Regression", modo: "Dark"),
+            MyColor(id: 11, color: Color("SourLemon"), colorTexto: Color("DarkText"), nombre: "Logistic Regression", modo: "Light"),
+            MyColor(id: 12, color: Color("BrightYarrow"), colorTexto: Color("DarkText"), nombre: "Generalized Linear Regression", modo: "Dark"),
+            MyColor(id: 13, color: Color("FirstDate"), colorTexto: Color("DarkText"), nombre: "Stochastic Gradient Descent", modo: "Light"),
+            MyColor(id: 14, color: Color("OrangeVille"), colorTexto: Color("LightText"), nombre: "Perceptron", modo: "Dark"),
+            MyColor(id: 15, color: Color("PinkGlamour"), colorTexto: Color("DarkText"), nombre: "Passive Aggressive Algorithms", modo: "Light"),
+            MyColor(id: 16, color: Color("ChiGong"), colorTexto: Color("LightText"), nombre: "Robustness Regression", modo: "Dark"),
+            MyColor(id: 17, color: Color("Pico8Pink"), colorTexto: Color("DarkText"), nombre: "Polynomial Regression", modo: "Light")
         ]
         
         naiveBayes = [
