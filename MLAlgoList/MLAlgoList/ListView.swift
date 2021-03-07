@@ -37,7 +37,7 @@ struct ListView: View {
                                     ForEach(lists.linearModels) { item in
                                         if showDark && item.modo == "Dark" || !showDark {
                                             NavigationLink(
-                                                destination: DetailView(color: item),
+                                                destination: DetailView(color: item, url: item.url),
                                                 label: {
                                                     VStack {
                                                         Text(item.nombre)
@@ -58,7 +58,7 @@ struct ListView: View {
                                     ForEach(lists.naiveBayes) { item in
                                         if showDark && item.modo == "Dark" || !showDark {
                                             NavigationLink(
-                                                destination: DetailView(color: item),
+                                                destination: DetailView(color: item, url: item.url),
                                                 label: {
                                                     VStack {
                                                         Text(item.nombre)
@@ -78,7 +78,7 @@ struct ListView: View {
                                     ForEach(lists.clustering) { item in
                                         if showDark && item.modo == "Dark" || !showDark {
                                             NavigationLink(
-                                                destination: DetailView(color: item),
+                                                destination: DetailView(color: item, url: item.url),
                                                 label: {
                                                     VStack {
                                                         Text(item.nombre)

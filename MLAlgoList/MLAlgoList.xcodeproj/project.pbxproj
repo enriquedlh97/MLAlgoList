@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53092BEF25F56BC500057BBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53092BEE25F56BC500057BBB /* ViewController.swift */; };
 		537432AF25ED860900E78386 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 537432AE25ED860900E78386 /* Colors.xcassets */; };
 		53F024E825EC81FB00DCE290 /* MLAlgoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F024E725EC81FB00DCE290 /* MLAlgoListApp.swift */; };
 		53F024EA25EC81FB00DCE290 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F024E925EC81FB00DCE290 /* ListView.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		53092BEE25F56BC500057BBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		537432AE25ED860900E78386 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		53F024E425EC81FB00DCE290 /* MLAlgoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLAlgoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53F024E725EC81FB00DCE290 /* MLAlgoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLAlgoListApp.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				53F024EB25EC81FC00DCE290 /* Assets.xcassets */,
 				53F024F025EC81FC00DCE290 /* Info.plist */,
 				53F024ED25EC81FC00DCE290 /* Preview Content */,
+				53092BEE25F56BC500057BBB /* ViewController.swift */,
 			);
 			path = MLAlgoList;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53092BEF25F56BC500057BBB /* ViewController.swift in Sources */,
 				53F024EA25EC81FB00DCE290 /* ListView.swift in Sources */,
 				53F024FC25EC8EB700DCE290 /* MyColor.swift in Sources */,
 				53F024F925EC843D00DCE290 /* DetailView.swift in Sources */,

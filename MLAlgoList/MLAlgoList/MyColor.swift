@@ -14,5 +14,5 @@ struct MyColor: Identifiable {
     var colorTexto: Color
     var nombre: String
     var modo: String
-    
+    var url: String
 }
