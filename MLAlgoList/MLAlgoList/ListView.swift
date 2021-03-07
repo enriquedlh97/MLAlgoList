@@ -23,7 +23,7 @@ struct ListView: View {
                 VStack {
                     // Toggle
                     Toggle(isOn: $showDark) {
-                        Text(showDark ? "All colors": "Dark colors" )
+                        Text(showDark ? "All algorithms": "Complicated algorithms" )
                             .font(.title2)
                             .foregroundColor(Color("DarkText"))
                     }
