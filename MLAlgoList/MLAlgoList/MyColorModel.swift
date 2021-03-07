@@ -52,16 +52,14 @@ class MyColorModel: ObservableObject {
         ]
         
         clustering = [
-            MyColor(id: 1, color: Color("Turquoise"), colorTexto: Color("DarkText"), nombre: "Turquoise", modo: "Light"),
-            MyColor(id: 2, color: Color("GreenSea"), colorTexto: Color("DarkText"), nombre: "GreenSea", modo: "Dark"),
-            MyColor(id: 3, color: Color("Emerald"), colorTexto: Color("DarkText"), nombre: "Emerald", modo: "Light"),
-            MyColor(id: 4, color: Color("Nephritis"), colorTexto: Color("DarkText"), nombre: "Nephritis", modo: "Dark"),
-            MyColor(id: 5, color: Color("PeterRiver"), colorTexto: Color("LightText"), nombre: "Peter River", modo: "Light"),
-            MyColor(id: 6, color: Color("BelizeHole"), colorTexto: Color("LightText"), nombre: "Belize Hole", modo: "Dark"),
-            MyColor(id: 7, color: Color("Amethyst"), colorTexto: Color("LightText"), nombre: "Amethyst", modo: "Light"),
-            MyColor(id: 8, color: Color("Wisteria"), colorTexto: Color("LightText"), nombre: "Wisteria", modo: "Dark"),
-            MyColor(id: 9, color: Color("WetAsphalt"), colorTexto: Color("LightText"), nombre: "WetAsphalt", modo: "Light"),
-            MyColor(id: 10, color: Color("MidnightBlue"), colorTexto: Color("LightText"), nombre: "Midnight Blue", modo: "Dark")
+            MyColor(id: 1, color: Color("Turquoise"), colorTexto: Color("DarkText"), nombre: "K-means", modo: "Light"),
+            MyColor(id: 2, color: Color("GreenSea"), colorTexto: Color("DarkText"), nombre: "Affinity Propagation", modo: "Dark"),
+            MyColor(id: 3, color: Color("Emerald"), colorTexto: Color("DarkText"), nombre: "Mean Shift", modo: "Light"),
+            MyColor(id: 4, color: Color("Nephritis"), colorTexto: Color("DarkText"), nombre: "Spectral Clustering", modo: "Dark"),
+            MyColor(id: 5, color: Color("PeterRiver"), colorTexto: Color("LightText"), nombre: "Hierarchical Clustering", modo: "Light"),
+            MyColor(id: 6, color: Color("BelizeHole"), colorTexto: Color("LightText"), nombre: "DBSCAN", modo: "Dark"),
+            MyColor(id: 7, color: Color("Amethyst"), colorTexto: Color("LightText"), nombre: "OPTICS", modo: "Light"),
+            MyColor(id: 8, color: Color("Wisteria"), colorTexto: Color("LightText"), nombre: "Birch", modo: "Dark")
         ]
         
     }
